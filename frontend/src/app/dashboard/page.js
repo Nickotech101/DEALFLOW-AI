@@ -7,9 +7,12 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 export default function Dashboard() {
   // Dummy data jo real-time mein backend/database se aayega baad mein
   const [leads, setLeads] = useState([
-    { id: 1, name: "Amit Sharma", email: "amit@tcs.com", company: "TCS", status: "High Priority", meeting: "22 May, 3:00 PM" },
-    { id: 2, name: "Sneha Reddy", email: "sneha@infosys.com", company: "Infosys", status: "High Priority", meeting: "25 May, 11:30 AM" },
-    { id: 3, name: "Rahul Verma", email: "rahul@gmail.com", company: "Freelancer", status: "Low Priority", meeting: "Not Booked" }
+    { id: 1, name: "Ranjit Bhardwaj ", email: "ranjit@gmail.com", company: "Amazon", status: "low Priority", meeting: "Not Booked" },
+    { id: 2, name: "Nikita Mishra", email: "nikita@gmail.com", company: "Flipkart", status: "low Priority", meeting: "Not Booked" },
+    { id: 3, name: "Amit Sharma", email: "amit@tcs.com", company: "TCS", status: "High Priority", meeting: "22 May, 3:00 PM" },
+    { id: 4, name: "Sneha Reddy", email: "sneha@infosys.com", company: "Infosys", status: "High Priority", meeting: "25 May, 11:30 AM" },
+    { id: 5, name: "Rahul Verma", email: "rahul@gmail.com", company: "Freelancer", status: "Low Priority", meeting: "Not Booked" },
+    { id: 6, name: "Rahul Verma", email: "rahul@gmail.com", company: "Freelancer", status: "Low Priority", meeting: "Not Booked" }
   ]);
    
   const chartData = [
