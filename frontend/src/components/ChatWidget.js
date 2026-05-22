@@ -58,7 +58,7 @@ export default function ChatWidget() {
         {loading && (
           <div className="flex justify-start">
             <div className="bg-gray-200 text-gray-500 p-3 rounded-2xl text-xs rounded-tl-none animate-pulse">
-              AI is thinking...
+              Nikita is thinking...
             </div>
           </div>
         )}

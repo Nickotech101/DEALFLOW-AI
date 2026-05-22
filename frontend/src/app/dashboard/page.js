@@ -12,7 +12,6 @@ export default function Dashboard() {
     { id: 3, name: "Amit Sharma", email: "amit@tcs.com", company: "TCS", status: "High Priority", meeting: "22 May, 3:00 PM" },
     { id: 4, name: "Sneha Reddy", email: "sneha@infosys.com", company: "Infosys", status: "High Priority", meeting: "25 May, 11:30 AM" },
     { id: 5, name: "Rahul Verma", email: "rahul@gmail.com", company: "Freelancer", status: "Low Priority", meeting: "Not Booked" },
-    { id: 6, name: "Rahul Verma", email: "rahul@gmail.com", company: "Freelancer", status: "Low Priority", meeting: "Not Booked" }
   ]);
    
   const chartData = [
